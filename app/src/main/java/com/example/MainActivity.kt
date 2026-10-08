@@ -325,6 +325,10 @@ class MainActivity : ComponentActivity() {
                 cacheMode = WebSettings.LOAD_DEFAULT
             }
 
+            val cookieManager = android.webkit.CookieManager.getInstance()
+            cookieManager.setAcceptCookie(true)
+            cookieManager.setAcceptThirdPartyCookies(this, true)
+
             // Expose Native AdMob Bridge to JavaScript
             val bridge = AdMobBridge(this@MainActivity, this)
             adMobBridge = bridge

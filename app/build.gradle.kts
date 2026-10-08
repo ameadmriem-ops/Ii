@@ -16,8 +16,8 @@ android {
     applicationId = "com.mymovie.streaming"
     minSdk = 24
     targetSdk = 36
-    versionCode = 2
-    versionName = "2.0 - إصدار جديد"
+    versionCode = 3
+    versionName = "2.1 - تحديث تحسين الأداء وربط Firebase"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
