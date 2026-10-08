@@ -16,10 +16,4 @@
 
     <!-- 4. رقم المشروع ومعرّف مرسل إشعارات FCM (project_number / Sender ID) -->
     <string name="gcm_defaultSenderId" translatable="false">197336730251</string>
-
-    <!-- 5. معرّف عميل الويب (default_web_client_id) -->
-    <string name="default_web_client_id" translatable="false">595903053058.apps.googleusercontent.com</string>
-
-    <!-- 6. رابط قاعدة البيانات Realtime (إن وجد) -->
-    <string name="firebase_database_url" translatable="false">https://hamza-4b70c.firebaseio.com</string>
 </resources>
